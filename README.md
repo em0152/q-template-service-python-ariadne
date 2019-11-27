@@ -11,6 +11,7 @@ conda env create -f environment.yml
 conda activate maana-ariadne
 docker build -t maana-python-ariadne .
 ```
+To update any changes made to the service you will need to re run docker build -t maana-python-ariadne .
 
 ## Run Local (via Docker)
 

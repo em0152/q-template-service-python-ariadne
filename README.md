@@ -8,7 +8,7 @@ It is recommended to use the [Conda](https://conda.io/projects/conda/en/latest/i
 
 ```
 conda env create -f environment.yml
-conda activate maana-tensorflow
+conda activate maana-ariadne
 docker build -t maana-python-ariadne .
 ```
 

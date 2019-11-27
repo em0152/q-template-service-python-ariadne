@@ -19,6 +19,8 @@ To run the GraphQL service locally (Via Docker):
 ```
 docker run -it -p 4000:80 -t maana-python-ariadne
 ```
+GraphIQL interface available at:
+http://localhost:4000/
 
 ## Run Debug (via Docker)
 

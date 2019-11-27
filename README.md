@@ -11,7 +11,6 @@ conda env create -f environment.yml
 conda activate maana-ariadne
 docker build -t maana-python-ariadne .
 ```
-To update any changes made to the service you will need to re run docker build -t maana-python-ariadne .
 
 ## Run Local (via Docker)
 
@@ -32,6 +31,12 @@ docker run -it -p 4000:80 -v $(pwd):/app maana-python-ariadne /start-reload.sh
 ```
 
 For details, please refer to the [official documentation](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker#development-live-reload).
+
+## Editing
+
+To update any changes made to the service you will need to re run docker build -t maana-python-ariadne .
+
+Note that if you require additional packages such as pandas and numpy you need to add your packages to the pip install in the Dockerfile
 
 ## Deploy
 
